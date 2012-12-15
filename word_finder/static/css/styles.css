@@ -1,0 +1,34 @@
+header#overview {
+  background-color: #69BAF4;
+}
+
+header#overview h1 {
+  text-align: center;
+}
+
+#content {
+  background-color: #DCEAF4;
+  min-height: 200px;
+}
+
+.letter {
+  background-color: white;
+  border: 1px solid;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  margin: 1px;
+}
+
+#letterbox {
+  width: 150px;
+}
+
+.letter.own {
+  background-color: blue;
+}
+
+.letter.other {
+  background-color: red;
+}

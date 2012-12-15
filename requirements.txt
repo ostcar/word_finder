@@ -1,0 +1,2 @@
+Werkzeug==0.8.3
+Jinja2==2.6

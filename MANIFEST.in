@@ -1,0 +1,6 @@
+include LICENSE
+include run_server.py
+include README.rst
+
+recursive-include word_finder/static *
+recursive-include word_finder/templates *

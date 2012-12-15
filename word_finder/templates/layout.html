@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% block title %}Word finder{% endblock %}</title>
+    <link type="text/css" href="/static/css/styles.css" rel="stylesheet">
+    <link type="text/css" href="/static/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+      <a href="https://github.com/ostcar/word_finder/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/img/github.png" alt="Fork me on GitHub"></a>
+    <header id="overview">
+      <div class="container">
+        <h1>Word finder</h1>
+      </div>
+    </header>
+    <div id="content" class="container">
+        {% block content %}
+        {% endblock content %}
+    </div>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/word_finder.js"></script>
+  </body>
+</html>

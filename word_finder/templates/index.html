@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+{{ super() }} – Index
+{% endblock title %}
+
+{% block content %}
+  Welcome to „word finder“. Please enter your letters:
+  <form method="POST" action="" class="form-inline">
+    <fieldset>
+      <div class="label label-important">{{ error }}</div>
+      <input name="letters" type="text" maxlength="25" placeholder="Type the letters of your game">
+      <button type="submit" class="btn">Submit</button>
+    </fieldset>
+  </form>
+{% endblock content %}
